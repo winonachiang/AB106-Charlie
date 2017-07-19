@@ -22,7 +22,7 @@ def getArticle(url):
 	return art_dict
 
 
-f = open('C:\\Users\\CF_NB.CF.000\\uncrawledurls\\ettoday.txt','rt')
+f = open('C:\\Users\\CF_NB.CF.000\\uncrawledurls\\ettoday(k).txt','rt')
 lines = f.readlines()#.decode("utf-8")
 #print(lines).replace("\n", " ")
 
