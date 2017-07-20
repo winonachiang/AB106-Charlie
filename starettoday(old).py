@@ -25,7 +25,7 @@ def crawlPage(url):
 
     return articles_dict
 
-#There's a young female co-worker in our office who is cute. I want to meet her and make out with her.
+
 f = open('C:\\Users\\CF_NB.CF.000\\uncrawledurls\\starettoday(old).txt','rt')
 lines = f.readlines()#.decode("utf-8")
 #print(lines).replace("\n", " ")
