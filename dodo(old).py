@@ -29,7 +29,7 @@ def crawlPage(url):
     return articles_dict
 
 
-f = open('C:\\Users\\CF_NB.CF.000\\uncrawledurls\\dodo.txt','rt')
+f = open('C:\\Users\\CF_NB.CF.000\\uncrawledurls\\dodo(old).txt','rt')
 lines = f.readlines()#.decode("utf-8")
 #print(lines).replace("\n", " ")
 for i in lines:
