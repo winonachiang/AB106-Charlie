@@ -34,7 +34,7 @@ def crawlPage(url):
 
     return articles_dict
 
-f = open('C:\\Users\\CF_NB.CF.000\\uncrawledurls(not crawled)\\beautimode.txt','r')
+f = open('C:\\Users\\CF_NB.CF.000\\uncrawledurls(old)\\beautimode(old).txt','r')
 lines = f.readlines()#.decode("utf-8")
 #print(lines).replace("\n", " ")
 for i in lines:
