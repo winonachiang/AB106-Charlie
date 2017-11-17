@@ -1,0 +1,97 @@
+建網卡
+開機器
+綁網卡
+Ubuntu
+
+After installation 
+	1. Sudo apt-get update
+	2. Sudo apt-get upgrade
+Python install process
+	1. Alias python=python3
+	2. Sudo apt-get install python-pip
+	3. Sudo apt-get install python3-pip
+	4. Pip install jieba
+	5. Pip3 install newspaper3k
+FTP
+	1.sudo apt-get install vsftpd
+	2.sudo nano /etc/vsftpd.conf
+	3.Write_enable = Yes
+SSH
+	Sudo apt-get install openssh-server
+
+設定IP讓子機互通
+Ifconfig -a 看網卡
+Sudo nano /etc/network/interfaces
+auto 網卡名稱
+	iface 網卡名稱 inet static  # 固定 (靜態) IP。
+          address 10.8.16.2XX # IP 位址。
+	netmask 255.0.0.0   # 網路遮罩。
+
+sudo /etc/init.d/networking restart
+
+ping測試
+
+~/.local/lib/python3.5/site-packages/jieba/analyse$
+
+
+
+Install mongo db
+https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/
+
+Check mongodb status
+	Service mongod status
+
+Connect vm through internal network
+Ssh ip -l username
+
+https://eight2late.wordpress.com/2015/09/29/a-gentle-introduction-to-topic-modeling-using-r/
+
+https://rstudio-pubs-static.s3.amazonaws.com/266565_171416f6c4be464fb11f7d8200c0b8f7.html
+
+
+
+待爬網站清單(url):
+https://www.ettoday.net/
+http://www.cna.com.tw/
+http://news.pchome.com.tw/
+https://udn.com/news/index
+http://www.setn.com/
+http://www.ltn.com.tw/
+https://tw.appledaily.com/
+https://newtalk.tw/
+https://www.nownews.com/
+https://theinitium.com/
+https://www.twreporter.org/
+https://tw.sports.appledaily.com/daily/
+http://mpark.news/
+https://womany.net/
+https://news.readmoo.com/
+https://travel.pixnet.net/
+http://buzzlife.com.tw/
+https://www.top1health.com/
+http://ifashiontrend.com/
+https://www.vogue.com.tw/
+https://www.techbang.com/
+https://buzzorange.com/techorange/
+https://technews.tw/
+https://www.soft4fun.net/
+https://chinese.engadget.com/
+https://www.bnext.com.tw/
+http://www.rich01.com/
+https://www.moneydj.com/
+http://www.seinsights.asia/
+http://www.cw.com.tw/
+https://www.buycartv.com/
+http://www.autonet.com.tw/cgi-bin/view.cgi?a1+a2-i+a3+a4+a5+b1+b2+b3+c1+c2+c3+c4+d1+d2+d3+d4+d5+e1-i+e2+e3+e4+e5+f1
+https://www.moto7.net/
+https://www.gamebase.com.tw/
+http://babynews.in-mommy.com/
+https://digiphoto.techbang.com/
+https://cookpad.com/tw
+https://www.kpopn.com/
+https://www.ltsports.com.tw/
+http://www.dongtw.com/
+https://www.damanwoo.com/
+http://openworld.tv/
+http://www.heyshow.com/
+https://ipetgroup.com/
