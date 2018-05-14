@@ -11,7 +11,7 @@ import hashlib
 from pymongo import MongoClient
 import pymongo
 try:
-    client = MongoClient('10.140.0.7', 27017) #10.140.0.7
+    client = MongoClient('127.0.0.1', 27017) 
     db = client['dsp_url'] #連結到mongoDB裡的database
     # to_redis = db['test_urls_o'] #這是DSP曝光url待爬中的
     collection = db['test_urls'] #這是DSP曝光url待爬中的
