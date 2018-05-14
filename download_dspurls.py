@@ -7,8 +7,8 @@ from datetime import date, timedelta
 
 yesterday = date.today() - timedelta(1) #昨天的日期
 formatted_yes = yesterday.strftime('%Y-%m-%d') #讓s3 cli去下載昨天的
-ACCESS_KEY_ID = 'AKIAJL65SMNW76NPFMJQ'
-ACCESS_SECRET_KEY = '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'
+ACCESS_KEY_ID = 'XXXXXXXXXXXXXXXXXXXXX'
+ACCESS_SECRET_KEY = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 BUCKET_NAME = 'cap-transaction' #指定到你的Bucket
 
 # 連接到 S3
