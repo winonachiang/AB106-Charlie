@@ -4,7 +4,7 @@ import time
 from pymongo import MongoClient
 from collections import Counter
 try:
-    client = MongoClient('127.0.0.1', 27017) #10.140.0.7
+    client = MongoClient('127.0.0.1', 27017) 
     db = client['admin'] #連結到mongoDB裡的database
     collection = db['interestgroups']
 except:
