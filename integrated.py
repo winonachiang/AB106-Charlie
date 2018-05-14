@@ -15,7 +15,7 @@ import redis
 import pymongo
 from pymongo import MongoClient
 try:
-    client = MongoClient('10.140.0.7', 27017) #10.140.0.7
+    client = MongoClient('127.0.0.1', 27017)
     db = client['admin'] #連結到mongoDB裡的database
     collection = db['dict'] #這是DSP曝光url待爬中的
     db2 = client['dsp_url']
