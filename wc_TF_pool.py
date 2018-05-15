@@ -9,7 +9,7 @@ from textblob import Word
 from nltk.corpus import stopwords
 stop = set(stopwords.words('english'))
 
-#any idea for her present?
+
 # 定義 stopwords
 def defineStopWords():
     with open('C:\\Users\\defaultuser0\\stop-word-list.txt', 'r', encoding='utf8') as mysw:
